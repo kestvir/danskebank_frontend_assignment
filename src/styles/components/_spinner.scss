@@ -1,0 +1,15 @@
+.spinner {
+  border: 0.2rem solid #ffffff6b;
+  border-top: 0.2rem solid $main-dark-color;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  animation: spin 0.6s linear infinite;
+
+  &--position-app-centered {
+    position: fixed;
+    top: calc(50% - 2.5rem);
+    left: calc(50% - 2.5rem);
+  }
+}

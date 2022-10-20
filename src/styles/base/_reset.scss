@@ -1,0 +1,32 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+[role="alert"] {
+  font-size: 1.9rem;
+}

@@ -1,0 +1,26 @@
+.app-error-boundry {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__btn {
+    display: inline-block;
+    background-color: $main-dark-color;
+    padding: 0.75rem 1.5rem;
+
+    &:hover {
+      background-color: $main-light-color;
+    }
+  }
+}

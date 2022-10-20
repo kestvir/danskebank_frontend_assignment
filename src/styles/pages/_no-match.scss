@@ -1,0 +1,13 @@
+.no-match {
+  gap: 0.7rem;
+
+  &__btn {
+    display: inline-block;
+    background-color: $main-dark-color;
+    padding: 0.55rem 1.35rem;
+
+    &:hover {
+      background-color: $main-light-color;
+    }
+  }
+}
